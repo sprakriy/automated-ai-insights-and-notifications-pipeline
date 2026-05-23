@@ -1,0 +1,6 @@
+Amazon Bedrock is a fully managed service that makes foundation models (FMs) 
+from leading AI companies accessible via an API. By choosing from a wide 
+range of foundation models, developers can find the optimal model for their 
+specific use case. This architecture leverages AWS Lambda to intercept 
+S3 object creation events, extract the text content, and pass it directly 
+to Bedrock for rapid summarization, keeping operational overhead close to zero.
